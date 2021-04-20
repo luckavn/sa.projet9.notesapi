@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  notesdb:
+    image: mongo:latest
+    container_name: notesdb
+    ports:
+      - 27017:27017

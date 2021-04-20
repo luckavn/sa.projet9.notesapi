@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Note Api
+  data:
+    mongodb:
+      database: notes_db
+      port: 27017
+
+server:
+  port: 8082

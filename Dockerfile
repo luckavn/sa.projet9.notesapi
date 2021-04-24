@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-alpine
+FROM openjdk:14
 LABEL responsable="lucasvannier@gmail.com"
 EXPOSE 8082:8082
 ARG JAR_FILE=target/*.jar

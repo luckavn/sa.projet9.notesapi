@@ -3,8 +3,8 @@ spring:
     name: Note Api
   data:
     mongodb:
-      database: notes_db
-      port: 27017
-
+      uri: mongodb://notesdb:27017/notes_db
+#      database: notes_db
+#      port: 27017
 server:
   port: 8082
